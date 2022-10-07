@@ -16,12 +16,12 @@ Augmentation has been accepted by ACCV 2022.
 
 
 ## Overview
-As an extension of visual detection tasks, scene graph generation (SGG) has drawn increasing attention with the achievement of
+As an extension of visual detection tasks, scene graph generation (SGG) has drawn increasing attention with the achievement of
 complex image understanding. However, it still faces two challenges: one
 is the distinguishing of objects with high visual similarity, the other is
 the discriminating of relationships with long-tailed bias. In this paper, we
-propose a Continuous Self-Study model (CSS) with self-knowledge distillation and spatial augmentation to refine the detection of hard samples.
-We design a long-term memory structure for CSS to learn its own behavior with the context feature, which can perceive the hard sample of
+propose a Continuous Self-Study model (CSS) with self-knowledge distillation and spatial augmentation to refine the detection of hard samples.
+We design a long-term memory structure for CSS to learn its own behavior with the context feature, which can perceive the hard sample of
 itself and focus more on similar targets in different scenes. Meanwhile,
 a fine-grained relative position encoding method is adopted to augment
 spatial features and supplement relationship information. On the Visual
